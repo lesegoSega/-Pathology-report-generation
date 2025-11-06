@@ -1,0 +1,96 @@
+[INFO] Using TMPDIR=/users/lesego/tmp/bart_attnpool.11799615.4PKKPL
+trainable params: 3,538,944 || all params: 142,959,360 || trainable%: 2.4755
+[E1 S100] loss=5.0431
+[E1 S200] loss=5.0799
+[E1 S300] loss=5.0334
+[E1 S400] loss=5.0013
+[E1 S500] loss=4.9521
+[E1 S600] loss=4.9251
+Epoch 01: train_loss=4.9374  val_ROUGE-L=0.0865  val_BLEU4=0.0033  val_BERTScoreF1=0.7861
+[Checkpoint] Saved to /users/lesego/projects/histgen_dataset/runs/bart_base_attnpool_lora (ROUGE-L=0.0865)
+[E2 S100] loss=4.7720
+[E2 S200] loss=4.6790
+[E2 S300] loss=4.6901
+[E2 S400] loss=4.6843
+[E2 S500] loss=4.6707
+[E2 S600] loss=4.6325
+Epoch 02: train_loss=4.6331  val_ROUGE-L=0.0837  val_BLEU4=0.0042  val_BERTScoreF1=0.7823
+[E3 S100] loss=4.4831
+[E3 S200] loss=4.4641
+[E3 S300] loss=4.4485
+[E3 S400] loss=4.4446
+[E3 S500] loss=4.4309
+[E3 S600] loss=4.4178
+Epoch 03: train_loss=4.4178  val_ROUGE-L=0.0781  val_BLEU4=0.0047  val_BERTScoreF1=0.7808
+[E4 S100] loss=4.3505
+[E4 S200] loss=4.3009
+[E4 S300] loss=4.2738
+[E4 S400] loss=4.2722
+[E4 S500] loss=4.2791
+[E4 S600] loss=4.2800
+Epoch 04: train_loss=4.2798  val_ROUGE-L=0.0898  val_BLEU4=0.0061  val_BERTScoreF1=0.7884
+[Checkpoint] Saved to /users/lesego/projects/histgen_dataset/runs/bart_base_attnpool_lora (ROUGE-L=0.0898)
+[E5 S100] loss=4.3144
+[E5 S200] loss=4.2358
+[E5 S300] loss=4.1917
+[E5 S400] loss=4.1652
+[E5 S500] loss=4.1368
+[E5 S600] loss=4.1448
+Epoch 05: train_loss=4.1440  val_ROUGE-L=0.1176  val_BLEU4=0.0149  val_BERTScoreF1=0.8026
+[Checkpoint] Saved to /users/lesego/projects/histgen_dataset/runs/bart_base_attnpool_lora (ROUGE-L=0.1176)
+[E6 S100] loss=4.0705
+[E6 S200] loss=4.0371
+[E6 S300] loss=4.0340
+[E6 S400] loss=4.0087
+[E6 S500] loss=4.0085
+[E6 S600] loss=4.0057
+Epoch 06: train_loss=4.0038  val_ROUGE-L=0.1287  val_BLEU4=0.0194  val_BERTScoreF1=0.8081
+[Checkpoint] Saved to /users/lesego/projects/histgen_dataset/runs/bart_base_attnpool_lora (ROUGE-L=0.1287)
+[E7 S100] loss=3.8591
+[E7 S200] loss=3.9401
+[E7 S300] loss=3.9345
+[E7 S400] loss=3.9377
+[E7 S500] loss=3.9161
+[E7 S600] loss=3.9118
+Epoch 07: train_loss=3.9086  val_ROUGE-L=0.1337  val_BLEU4=0.0206  val_BERTScoreF1=0.8152
+[Checkpoint] Saved to /users/lesego/projects/histgen_dataset/runs/bart_base_attnpool_lora (ROUGE-L=0.1337)
+[E8 S100] loss=3.8183
+[E8 S200] loss=3.8164
+[E8 S300] loss=3.8232
+[E8 S400] loss=3.8396
+[E8 S500] loss=3.8342
+[E8 S600] loss=3.8181
+Epoch 08: train_loss=3.8174  val_ROUGE-L=0.1375  val_BLEU4=0.0227  val_BERTScoreF1=0.8151
+[Checkpoint] Saved to /users/lesego/projects/histgen_dataset/runs/bart_base_attnpool_lora (ROUGE-L=0.1375)
+[E9 S100] loss=3.8564
+[E9 S200] loss=3.7812
+[E9 S300] loss=3.7772
+[E9 S400] loss=3.7739
+[E9 S500] loss=3.7626
+[E9 S600] loss=3.7653
+Epoch 09: train_loss=3.7674  val_ROUGE-L=0.1497  val_BLEU4=0.0263  val_BERTScoreF1=0.8194
+[Checkpoint] Saved to /users/lesego/projects/histgen_dataset/runs/bart_base_attnpool_lora (ROUGE-L=0.1497)
+[E10 S100] loss=3.7206
+[E10 S200] loss=3.7097
+[E10 S300] loss=3.7219
+[E10 S400] loss=3.7106
+[E10 S500] loss=3.7100
+[E10 S600] loss=3.6968
+Epoch 10: train_loss=3.7012  val_ROUGE-L=0.1448  val_BLEU4=0.0260  val_BERTScoreF1=0.8177
+[E11 S100] loss=3.6632
+[E11 S200] loss=3.6932
+[E11 S300] loss=3.6696
+[E11 S400] loss=3.6612
+[E11 S500] loss=3.6641
+[E11 S600] loss=3.6547
+Epoch 11: train_loss=3.6561  val_ROUGE-L=0.1520  val_BLEU4=0.0296  val_BERTScoreF1=0.8210
+[Checkpoint] Saved to /users/lesego/projects/histgen_dataset/runs/bart_base_attnpool_lora (ROUGE-L=0.1520)
+[E12 S100] loss=3.6868
+[E12 S200] loss=3.6525
+[E12 S300] loss=3.6567
+[E12 S400] loss=3.6308
+[E12 S500] loss=3.6163
+[E12 S600] loss=3.6192
+Epoch 12: train_loss=3.6190  val_ROUGE-L=0.1563  val_BLEU4=0.0323  val_BERTScoreF1=0.8241
+[Checkpoint] Saved to /users/lesego/projects/histgen_dataset/runs/bart_base_attnpool_lora (ROUGE-L=0.1563)
+Best ROUGE-L: 0.1563

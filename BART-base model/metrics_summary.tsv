@@ -1,0 +1,10 @@
+metric	value
+count	44
+rougeL	0.085963
+bleu1	0.133977
+bleu2	0.049243
+bleu3	0.023387
+bleu4	0.016409
+meteor	0.095609
+jaccard	0.045836
+bertscore_f1	0.780639
