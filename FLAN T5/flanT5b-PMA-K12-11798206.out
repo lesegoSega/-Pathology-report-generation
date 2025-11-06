@@ -1,0 +1,88 @@
+matmul precision set to 'high'
+[VAL DEBUG] ref[0]: 'Summary: The pathology report describes the examination of a brain specimen from a patient with a left parietal tumour glioma. The report indicates that the tumour is a high grade glioma, consistent w'
+[VAL DEBUG] hyp[0]: "I'm not sure if I'll be able to make it to the finals, but I'm sure I'll have a good time at the end of the day. I'm looking forward to seeing you all in the fall. I'll let you know when I'm back in t"
+[VAL DEBUG] ref[1]: 'The pathology report describes a biopsy of a 3.5 cm breast self-detected lesion that was diagnosed as infiltrating ductal carcinoma, NSABP histologic grade 2 of 3, moderately differentiated with vascu'
+[VAL DEBUG] hyp[1]: "I'm not sure if I'll be able to make it to the finals, but I'm sure I'll have a good time at the end of the day. I'm looking forward to seeing you all in the fall. I'll let you know when I'm back in t"
+Epoch 01: train_loss=0.5816  val_ROUGE-L=0.0870  val_BERTScoreF1=-0.2816  val_BLEU4=0.0014  val_TERMREC=0.000
+[VAL DEBUG] ref[0]: 'Summary: The pathology report describes the examination of a brain specimen from a patient with a left parietal tumour glioma. The report indicates that the tumour is a high grade glioma, consistent w'
+[VAL DEBUG] hyp[0]: 'Reporting as a pathology report, the pathology report describes the pathology of a tumor originating from a tumor in the uterus of a patient with a uterine carcinoma. The pathology report identifies t'
+[VAL DEBUG] ref[1]: 'The pathology report describes a biopsy of a 3.5 cm breast self-detected lesion that was diagnosed as infiltrating ductal carcinoma, NSABP histologic grade 2 of 3, moderately differentiated with vascu'
+[VAL DEBUG] hyp[1]: 'Reporting as a pathology report, the patient was diagnosed with a squamous cell carcinoma of the uterus of a female patient with a tumor of the right uterus. The tumor was resectated with a non-small '
+Epoch 02: train_loss=0.2896  val_ROUGE-L=0.1487  val_BERTScoreF1=-0.0706  val_BLEU4=0.0232  val_TERMREC=0.389
+[VAL DEBUG] ref[0]: 'Summary: The pathology report describes the examination of a brain specimen from a patient with a left parietal tumour glioma. The report indicates that the tumour is a high grade glioma, consistent w'
+[VAL DEBUG] hyp[0]: 'The pathology report describes the diagnosis of a patient with a tumor in the lower lobe of the uterus. The report describes a case of uterine carcinoma in the upper lobe. The report also describes th'
+[VAL DEBUG] ref[1]: 'The pathology report describes a biopsy of a 3.5 cm breast self-detected lesion that was diagnosed as infiltrating ductal carcinoma, NSABP histologic grade 2 of 3, moderately differentiated with vascu'
+[VAL DEBUG] hyp[1]: 'The pathology report describes the diagnosis of a patient with a lymph node-positive adenocarcinoma. The report describes the pathology report for a single patient with lymphoma in the lower lobe of t'
+Epoch 03: train_loss=0.1686  val_ROUGE-L=0.1636  val_BERTScoreF1=-0.0144  val_BLEU4=0.0375  val_TERMREC=0.351
+[VAL DEBUG] ref[0]: 'Summary: The pathology report describes the examination of a brain specimen from a patient with a left parietal tumour glioma. The report indicates that the tumour is a high grade glioma, consistent w'
+[VAL DEBUG] hyp[0]: 'The pathology report describes the diagnosis of a patient with a tumor in the right lobe of the uterus. The tumor is located in the cervix of the right uterus, and the uterine margins are negative for'
+[VAL DEBUG] ref[1]: 'The pathology report describes a biopsy of a 3.5 cm breast self-detected lesion that was diagnosed as infiltrating ductal carcinoma, NSABP histologic grade 2 of 3, moderately differentiated with vascu'
+[VAL DEBUG] hyp[1]: 'The pathology report describes the diagnosis of a patient with a tumor in the right lobe of the uterus. The tumor is located in the cervix of the right uterus, and the uterine margins are negative for'
+Epoch 04: train_loss=0.1479  val_ROUGE-L=0.1862  val_BERTScoreF1=-0.0207  val_BLEU4=0.0435  val_TERMREC=0.535
+[VAL DEBUG] ref[0]: 'Summary: The pathology report describes the examination of a brain specimen from a patient with a left parietal tumour glioma. The report indicates that the tumour is a high grade glioma, consistent w'
+[VAL DEBUG] hyp[0]: 'The pathology report describes the diagnosis of a patient with adenocarcinoma of the pancreas, pancreatitis, and pancreatic cancer. The tumor is located in the right aorta, and the lymph nodes are neg'
+[VAL DEBUG] ref[1]: 'The pathology report describes a biopsy of a 3.5 cm breast self-detected lesion that was diagnosed as infiltrating ductal carcinoma, NSABP histologic grade 2 of 3, moderately differentiated with vascu'
+[VAL DEBUG] hyp[1]: 'Diagnosis: Adenocarcinoma of the right adipose tissue in the right lobe of the lung. The tumor is infiltrating into the right lung, and the lymph nodes are negative for tumor. There is no evidence of '
+Epoch 05: train_loss=0.1365  val_ROUGE-L=0.1617  val_BERTScoreF1=-0.1296  val_BLEU4=0.0389  val_TERMREC=0.497
+[VAL DEBUG] ref[0]: 'Summary: The pathology report describes the examination of a brain specimen from a patient with a left parietal tumour glioma. The report indicates that the tumour is a high grade glioma, consistent w'
+[VAL DEBUG] hyp[0]: 'The pathology report describes a case of invasive adenocarcinoma in the right lobe of the lung. The tumor is located in the proximal portion of the lung, and the lymph nodes are negative for metastati'
+[VAL DEBUG] ref[1]: 'The pathology report describes a biopsy of a 3.5 cm breast self-detected lesion that was diagnosed as infiltrating ductal carcinoma, NSABP histologic grade 2 of 3, moderately differentiated with vascu'
+[VAL DEBUG] hyp[1]: 'The pathology report describes a case of invasive ductal adenocarcinoma in the right upper lobe of the lung. The tumor is located in the right lower lobe, and the lymph nodes are uninvolved. The repor'
+Epoch 06: train_loss=0.1305  val_ROUGE-L=0.1839  val_BERTScoreF1=0.0564  val_BLEU4=0.0571  val_TERMREC=0.403
+[VAL DEBUG] ref[0]: 'Summary: The pathology report describes the examination of a brain specimen from a patient with a left parietal tumour glioma. The report indicates that the tumour is a high grade glioma, consistent w'
+[VAL DEBUG] hyp[0]: 'The pathology report pertains to a patient with a history of adenocarcinoma of the pancreatic parenchyma. The tumor is located in the right pancreas and extends to the right arachnoid nucleus. The pan'
+[VAL DEBUG] ref[1]: 'The pathology report describes a biopsy of a 3.5 cm breast self-detected lesion that was diagnosed as infiltrating ductal carcinoma, NSABP histologic grade 2 of 3, moderately differentiated with vascu'
+[VAL DEBUG] hyp[1]: 'The pathology report pertains to a patient with a history of adenocarcinoma, a type of squamous cell carcinoma in the right lower lobe of the pancreas. The tumor is located in the left lobe and extend'
+Epoch 07: train_loss=0.1239  val_ROUGE-L=0.1840  val_BERTScoreF1=0.0051  val_BLEU4=0.0475  val_TERMREC=0.343
+[VAL DEBUG] ref[0]: 'Summary: The pathology report describes the examination of a brain specimen from a patient with a left parietal tumour glioma. The report indicates that the tumour is a high grade glioma, consistent w'
+[VAL DEBUG] hyp[0]: 'The pathology report describes a case of invasive squamous cell carcinoma in the right upper lobe of the lung. The tumor is located in the right lower lobe and extends into the right lobe, extending i'
+[VAL DEBUG] ref[1]: 'The pathology report describes a biopsy of a 3.5 cm breast self-detected lesion that was diagnosed as infiltrating ductal carcinoma, NSABP histologic grade 2 of 3, moderately differentiated with vascu'
+[VAL DEBUG] hyp[1]: 'The pathology report describes a case of adenocarcinoma in the right upper lobe of the lung. The tumor is located in the right lower lobe and extends into the right lobe, extending into the left lobe.'
+Epoch 08: train_loss=0.1190  val_ROUGE-L=0.1936  val_BERTScoreF1=0.0805  val_BLEU4=0.0584  val_TERMREC=0.390
+[VAL DEBUG] ref[0]: 'Summary: The pathology report describes the examination of a brain specimen from a patient with a left parietal tumour glioma. The report indicates that the tumour is a high grade glioma, consistent w'
+[VAL DEBUG] hyp[0]: 'The pathology report describes a case of invasive squamous cell carcinoma in the right upper lobe of the lung. The tumor is located in the right lower lobe and extends into the right lobe, extending i'
+[VAL DEBUG] ref[1]: 'The pathology report describes a biopsy of a 3.5 cm breast self-detected lesion that was diagnosed as infiltrating ductal carcinoma, NSABP histologic grade 2 of 3, moderately differentiated with vascu'
+[VAL DEBUG] hyp[1]: 'The pathology report describes a case of invasive squamous cell carcinoma in the right lower lobe of the lung. The tumor is located in the right upper lobe and extends into the left lobe, extending in'
+Epoch 09: train_loss=0.1140  val_ROUGE-L=0.1876  val_BERTScoreF1=0.0679  val_BLEU4=0.0575  val_TERMREC=0.446
+[VAL DEBUG] ref[0]: 'Summary: The pathology report describes the examination of a brain specimen from a patient with a left parietal tumour glioma. The report indicates that the tumour is a high grade glioma, consistent w'
+[VAL DEBUG] hyp[0]: "The pathology report describes a case of invasive ductal carcinoma in the right lower lobe of the lung. The report indicates that the tumor is a poorly differentiated adenocarcinoma with a Gleason's s"
+[VAL DEBUG] ref[1]: 'The pathology report describes a biopsy of a 3.5 cm breast self-detected lesion that was diagnosed as infiltrating ductal carcinoma, NSABP histologic grade 2 of 3, moderately differentiated with vascu'
+[VAL DEBUG] hyp[1]: 'The pathology report describes a case of invasive squamous cell carcinoma in the right lower lobe of the lung. The tumor is confined to the lung, and there is no evidence of neo-adjuvant treatment. Th'
+Epoch 10: train_loss=0.1099  val_ROUGE-L=0.1962  val_BERTScoreF1=0.0832  val_BLEU4=0.0602  val_TERMREC=0.456
+[VAL DEBUG] ref[0]: 'Summary: The pathology report describes the examination of a brain specimen from a patient with a left parietal tumour glioma. The report indicates that the tumour is a high grade glioma, consistent w'
+[VAL DEBUG] hyp[0]: 'The pathology report pertains to a patient with a history of adenocarcinoma who underwent a radical nephrectomy due to a tumor in the right upper lobe of the lung. The report indicates the presence of'
+[VAL DEBUG] ref[1]: 'The pathology report describes a biopsy of a 3.5 cm breast self-detected lesion that was diagnosed as infiltrating ductal carcinoma, NSABP histologic grade 2 of 3, moderately differentiated with vascu'
+[VAL DEBUG] hyp[1]: 'The pathology report pertains to a patient with a history of adenocarcinoma who underwent a radical mastectomy due to a tumor in the right lobe of the lung. The report indicates the presence of a poor'
+Epoch 11: train_loss=0.1051  val_ROUGE-L=0.1881  val_BERTScoreF1=0.0689  val_BLEU4=0.0515  val_TERMREC=0.485
+[VAL DEBUG] ref[0]: 'Summary: The pathology report describes the examination of a brain specimen from a patient with a left parietal tumour glioma. The report indicates that the tumour is a high grade glioma, consistent w'
+[VAL DEBUG] hyp[0]: 'The pathology report describes a case of invasive lobular carcinoma in a female patient who underwent a total thyroidectomy. The report indicates the presence of a moderately differentiated adenocarci'
+[VAL DEBUG] ref[1]: 'The pathology report describes a biopsy of a 3.5 cm breast self-detected lesion that was diagnosed as infiltrating ductal carcinoma, NSABP histologic grade 2 of 3, moderately differentiated with vascu'
+[VAL DEBUG] hyp[1]: 'The pathology report pertains to a patient who underwent a total thyroidectomy for a thyroidectomy. The report indicates the presence of a moderately differentiated adenocarcinoma in the right lobe of'
+Epoch 12: train_loss=0.1005  val_ROUGE-L=0.1897  val_BERTScoreF1=0.0612  val_BLEU4=0.0524  val_TERMREC=0.409
+[VAL DEBUG] ref[0]: 'Summary: The pathology report describes the examination of a brain specimen from a patient with a left parietal tumour glioma. The report indicates that the tumour is a high grade glioma, consistent w'
+[VAL DEBUG] hyp[0]: 'The pathology report pertains to a female patient who underwent a total thyroidectomy for adenocarcinoma in the right lobe of the lung. The report indicates the presence of a poorly differentiated squ'
+[VAL DEBUG] ref[1]: 'The pathology report describes a biopsy of a 3.5 cm breast self-detected lesion that was diagnosed as infiltrating ductal carcinoma, NSABP histologic grade 2 of 3, moderately differentiated with vascu'
+[VAL DEBUG] hyp[1]: 'The pathology report pertains to a female patient who underwent a radical nephrectomy for adenocarcinoma of the prostate. The report indicates the presence of a poorly differentiated squamous cell car'
+Epoch 13: train_loss=0.0971  val_ROUGE-L=0.1792  val_BERTScoreF1=0.0348  val_BLEU4=0.0461  val_TERMREC=0.426
+[VAL DEBUG] ref[0]: 'Summary: The pathology report describes the examination of a brain specimen from a patient with a left parietal tumour glioma. The report indicates that the tumour is a high grade glioma, consistent w'
+[VAL DEBUG] hyp[0]: 'The pathology report pertains to a female patient who underwent a total thyroidectomy due to a thyroidectomy for a thyroid cancer. The report indicates the presence of a moderately differentiated aden'
+[VAL DEBUG] ref[1]: 'The pathology report describes a biopsy of a 3.5 cm breast self-detected lesion that was diagnosed as infiltrating ductal carcinoma, NSABP histologic grade 2 of 3, moderately differentiated with vascu'
+[VAL DEBUG] hyp[1]: 'The pathology report pertains to a female patient who underwent a total thyroidectomy for a lobular tumor in the right lower lobe of the thyroid gland. The tumor was diagnosed as a moderately differen'
+Epoch 14: train_loss=0.0934  val_ROUGE-L=0.1824  val_BERTScoreF1=0.0283  val_BLEU4=0.0503  val_TERMREC=0.397
+[VAL DEBUG] ref[0]: 'Summary: The pathology report describes the examination of a brain specimen from a patient with a left parietal tumour glioma. The report indicates that the tumour is a high grade glioma, consistent w'
+[VAL DEBUG] hyp[0]: 'The pathology report pertains to a patient who underwent a radical nephrectomy due to papillary carcinoma of the renal cell carcinoma. The report indicates the presence of a poorly differentiated aden'
+[VAL DEBUG] ref[1]: 'The pathology report describes a biopsy of a 3.5 cm breast self-detected lesion that was diagnosed as infiltrating ductal carcinoma, NSABP histologic grade 2 of 3, moderately differentiated with vascu'
+[VAL DEBUG] hyp[1]: 'The pathology report pertains to a patient who underwent a radical nephrectomy due to papillary renal cell carcinoma. The report indicates the presence of a poorly differentiated adenocarcinoma, moder'
+Epoch 15: train_loss=0.0904  val_ROUGE-L=0.1765  val_BERTScoreF1=0.0264  val_BLEU4=0.0440  val_TERMREC=0.346
+[VAL DEBUG] ref[0]: 'Summary: The pathology report describes the examination of a brain specimen from a patient with a left parietal tumour glioma. The report indicates that the tumour is a high grade glioma, consistent w'
+[VAL DEBUG] hyp[0]: 'The pathology report describes a case of invasive squamous cell carcinoma in the right upper lobe of the lung. The tumor is confined to the bronchus, and there is no evidence of malignancy in any of t'
+[VAL DEBUG] ref[1]: 'The pathology report describes a biopsy of a 3.5 cm breast self-detected lesion that was diagnosed as infiltrating ductal carcinoma, NSABP histologic grade 2 of 3, moderately differentiated with vascu'
+[VAL DEBUG] hyp[1]: 'The pathology report describes a case of invasive squamous carcinoma in the right upper lobe of the lung. The resection margin was free of tumor. The tumor was diagnosed as pT2a pNO (0/16), pNO pNO, p'
+Epoch 16: train_loss=0.0874  val_ROUGE-L=0.1814  val_BERTScoreF1=0.0401  val_BLEU4=0.0530  val_TERMREC=0.459
+[VAL DEBUG] ref[0]: 'Summary: The pathology report describes the examination of a brain specimen from a patient with a left parietal tumour glioma. The report indicates that the tumour is a high grade glioma, consistent w'
+[VAL DEBUG] hyp[0]: 'The pathology report pertains to a female patient who underwent a total thyroidectomy due to papillary carcinoma in the right thyroid lobe. The lobectomy revealed a poorly differentiated adenocarcinom'
+[VAL DEBUG] ref[1]: 'The pathology report describes a biopsy of a 3.5 cm breast self-detected lesion that was diagnosed as infiltrating ductal carcinoma, NSABP histologic grade 2 of 3, moderately differentiated with vascu'
+[VAL DEBUG] hyp[1]: 'The pathology report pertains to a female patient who underwent a total thyroidectomy due to papillary thyroid carcinoma. The report reveals that the right lobe thyroid gland shows no malignancy, and '
+Epoch 17: train_loss=0.0836  val_ROUGE-L=0.1809  val_BERTScoreF1=0.0529  val_BLEU4=0.0440  val_TERMREC=0.422
+Early stopping (no ROUGE-L improvement).
+Best ROUGE-L: 0.1962
